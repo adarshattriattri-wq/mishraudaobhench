@@ -14,56 +14,56 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      text-align: center;
     }
 
     .container {
-      background: rgba(0,0,0,0.75);
-      border-radius: 15px;
-      padding: 20px;
-      width: 90%;
-      max-width: 400px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+      background: rgba(0,0,0,0.7);
+      border-radius: 20px;
+      overflow: hidden;
+      width: 380px;
+      max-width: 95%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+      text-align: center;
+      padding-bottom: 20px;
     }
 
     .header {
       background: red;
-      padding: 12px;
-      border-radius: 8px;
-      font-size: 20px;
+      color: white;
       font-weight: bold;
-      margin-bottom: 20px;
+      padding: 12px;
+      font-size: 18px;
     }
 
     .stats {
+      padding: 20px;
       text-align: left;
       font-size: 16px;
-      margin-bottom: 20px;
+      line-height: 1.6;
     }
 
     .stats p {
-      margin: 10px 0;
+      margin: 12px 0;
       font-weight: bold;
       display: flex;
       align-items: center;
     }
 
     .stats p span {
-      margin-left: 8px;
+      margin-left: 10px;
     }
 
     .btn {
-      display: block;
+      display: inline-block;
       background: #007bff;
       color: white;
-      padding: 14px;
-      margin: 20px auto;
+      padding: 14px 28px;
+      margin: 20px 0;
       border-radius: 8px;
       font-size: 18px;
       font-weight: bold;
       text-decoration: none;
       transition: 0.3s;
-      width: 80%;
     }
 
     .btn:hover {
@@ -71,9 +71,10 @@
     }
 
     .footer-img {
-      margin-top: 15px;
-      border-radius: 10px;
       width: 100%;
+      border-top: 3px solid #444;
+      margin-top: 10px;
+      border-radius: 0 0 20px 20px;
     }
   </style>
 
@@ -94,6 +95,7 @@
   src="https://www.facebook.com/tr?id=1859181828348215&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
+
 </head>
 <body>
   <div class="container">
@@ -104,16 +106,15 @@
       <p>🏆 <span>34/37 Womens BBL Matches Passed Record</span></p>
       <p>🏆 <span>42/44 Hundred Man Matches Passed Record</span></p>
     </div>
-
-    <!-- Button with Subscribe Event Tracker -->
+    
+    <!-- Subscribe event added here -->
     <a href="https://t.me/+bleIBtwlF5YwYjE9" 
-       class="btn" 
+       class="btn"
        onclick="fbq('track', 'Subscribe');">
        JOIN TELEGRAM
     </a>
 
-    <!-- Footer Image (your uploaded image) -->
-    <img src="https://raw.githubusercontent.com/yourusername/yourrepo/main/yourimage.jpg" alt="Boss Image" class="footer-img">
+    <img src="5b80d786-36a7-449c-ab51-acba08d35a6a.jpg" alt="Boss Image" class="footer-img">
   </div>
 </body>
 </html>
